@@ -1,0 +1,103 @@
+/* Write your CSS here */
+.container {
+  padding: 35px;
+  font-family: 'Roboto';
+}
+
+.box1 {
+  padding: 20px;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/money-manager/money-manager-bg.png');
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  margin-bottom: 30px;
+}
+
+.heading {
+  color: #475569;
+  font-weight: 500;
+}
+.para {
+  color: #475569;
+  font-size: 18px;
+}
+.span {
+  color: #0b69ff;
+  font-weight: bold;
+}
+
+.box2 {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+}
+.box3 {
+  border: 2px solid #cbd5e1;
+  border-radius: 16px;
+  padding: 22px;
+  margin-bottom: 30px;
+}
+.input-heading {
+  font-size: 18px;
+  font-weight: bold;
+  color: #475569;
+}
+.input-container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+.label {
+  color: #7e858e;
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.input {
+  border: 1px solid #d7dfe9;
+  padding: 10px;
+  border-radius: 3px;
+}
+.add-button {
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border: 0px;
+  background-color: #0b69ff;
+  color: #ffffff;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  outline: none;
+}
+.history-heading {
+  font-size: 20px;
+  font-weight: 500;
+  color: #475569;
+}
+.history-container {
+  border: 2px solid #cbd5e1;
+
+  margin-bottom: 30px;
+}
+.table-container {
+  display: flex;
+  align-items: center;
+}
+.table-heading {
+  font-size: 18px;
+  font-weight: 500;
+  color: #475569;
+  width: 100px;
+  margin-left: 15px;
+  margin-bottom: 10px;
+}
+
+.ul {
+  padding: 0px;
+  list-style-type: none;
+}

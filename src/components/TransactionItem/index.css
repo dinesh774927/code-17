@@ -1,0 +1,23 @@
+/* Write your CSS here */
+.items {
+  color: #475569;
+  font-size: 18px;
+  width: 100px;
+  margin-left: 15px;
+}
+.button-delete {
+  background-color: transparent;
+  border: 0px;
+  cursor: pointer;
+  outline: none;
+}
+
+.delete {
+  height: 30px;
+}
+.table-container2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
